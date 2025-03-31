@@ -441,7 +441,7 @@ app.post("/logout", (req, res) => {
   res.json({ message: "Logged out sucessfully" });
 });
 
-mongoose.connect("mongodb://localhost:27017/authapp")
+mongoose.connect("mongodb+srv://ravipratihast71:jPoRfADyx0J54rU3@cluster0.hkwcuwh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/reactProjectDB")
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
